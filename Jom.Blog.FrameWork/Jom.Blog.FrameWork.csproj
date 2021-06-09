@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Jom.Blog.FrameWork.Entity\Jom.Blog.FrameWork.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Jom.Blog.FrameWork.cs</LastGenOutput>
+    </None>
+    <None Update="Jom.Blog.FrameWork.IRepository\Jom.Blog.FrameWork.IRepository.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Jom.Blog.FrameWork.IRepository.cs</LastGenOutput>
+    </None>
+    <None Update="Jom.Blog.FrameWork.IServices\Jom.Blog.FrameWork.IServices.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Jom.Blog.FrameWork.IServices.cs</LastGenOutput>
+    </None>
+    <None Update="Jom.Blog.FrameWork.Repository\Jom.Blog.FrameWork.Repository.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Jom.Blog.FrameWork.Repository.cs</LastGenOutput>
+    </None>
+    <None Update="Jom.Blog.FrameWork.Services\Jom.Blog.FrameWork.Services.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Jom.Blog.FrameWork.Services.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Jom.Blog.FrameWork.IRepository\Jom.Blog.FrameWork.IRepository.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Jom.Blog.FrameWork.IRepository.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Jom.Blog.FrameWork.IServices\Jom.Blog.FrameWork.IServices.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Jom.Blog.FrameWork.IServices.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Jom.Blog.FrameWork.Repository\Jom.Blog.FrameWork.Repository.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Jom.Blog.FrameWork.Repository.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Jom.Blog.FrameWork.Services\Jom.Blog.FrameWork.Services.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Jom.Blog.FrameWork.Services.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.Api", "Jom.Blog.Api\Jom.Blog.Api.csproj", "{6F47A41A-085E-4422-BB73-5A2CBAA07D9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.Model", "Jom.Blog.Model\Jom.Blog.Model.csproj", "{E725F0A1-0B03-406F-B84B-0F486C6137FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.Repository", "Jom.Blog.Repository\Jom.Blog.Repository.csproj", "{8D651E7F-49D3-4D27-8486-ADCF000BB24D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.IServices", "Jom.Blog.IServices\Jom.Blog.IServices.csproj", "{37BB8600-94DA-4A2C-9230-DE93EA1EB0BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.Services", "Jom.Blog.Services\Jom.Blog.Services.csproj", "{A2EFEFFC-39AD-48D2-8337-E6840B26023B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.Common", "Jom.Blog.Common\Jom.Blog.Common.csproj", "{97D32A49-994C-44C5-A167-51E71D173B6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.Tasks", "Jom.Blog.Tasks\Jom.Blog.Tasks.csproj", "{F8E9FA1F-4079-4F62-B717-E389BC0014E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.Extensions", "Jom.Blog.Extensions\Jom.Blog.Extensions.csproj", "{558F1B39-07E4-4FAB-BE7E-5B6104607064}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{D9833F24-7BD0-486F-B028-F1FD098AA1E1}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Jom.Blog.Build.bat = Jom.Blog.Build.bat
+		Jom.Blog.Publish.bat = Jom.Blog.Publish.bat
+		Jom.Blog.Publish.Docker.Jenkins.sh = Jom.Blog.Publish.Docker.Jenkins.sh
+		Jom.Blog.Publish.Docker.sh = Jom.Blog.Publish.Docker.sh
+		Jom.Blog.Publish.Linux.sh = Jom.Blog.Publish.Linux.sh
+		codecov.yml = codecov.yml
+		CreateYourProject.bat = CreateYourProject.bat
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EDA8901E-541E-4ADC-B71E-59697D5F9549}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.Tests", "Jom.Blog.Tests\Jom.Blog.Tests.csproj", "{300A8113-8033-4184-BE28-FC48D8349CD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{E2BD7D4D-9ED5-41CD-8401-C3FB26F203BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generators", "Generators", "{047A9723-9AAC-42E3-8C69-B3835F15FF96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.FrameWork", "Jom.Blog.FrameWork\Jom.Blog.FrameWork.csproj", "{52D318A2-F44E-4CB7-8DD4-483357D4333F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{A592C96A-4E44-4F2A-AC21-30683AF6C493}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.EventBus", "Jom.Blog.EventBus\Jom.Blog.EventBus.csproj", "{17C9E9DC-E926-4C90-9025-3DAC55D7EDA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jom.Blog.ConsoleApp", "Jom.Blog.ConsoleApp\Jom.Blog.ConsoleApp.csproj", "{0B3265A9-6716-4D28-8648-C64D5E692ACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F47A41A-085E-4422-BB73-5A2CBAA07D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F47A41A-085E-4422-BB73-5A2CBAA07D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F47A41A-085E-4422-BB73-5A2CBAA07D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F47A41A-085E-4422-BB73-5A2CBAA07D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E725F0A1-0B03-406F-B84B-0F486C6137FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E725F0A1-0B03-406F-B84B-0F486C6137FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E725F0A1-0B03-406F-B84B-0F486C6137FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E725F0A1-0B03-406F-B84B-0F486C6137FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D651E7F-49D3-4D27-8486-ADCF000BB24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D651E7F-49D3-4D27-8486-ADCF000BB24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D651E7F-49D3-4D27-8486-ADCF000BB24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D651E7F-49D3-4D27-8486-ADCF000BB24D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BB8600-94DA-4A2C-9230-DE93EA1EB0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BB8600-94DA-4A2C-9230-DE93EA1EB0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BB8600-94DA-4A2C-9230-DE93EA1EB0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BB8600-94DA-4A2C-9230-DE93EA1EB0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EFEFFC-39AD-48D2-8337-E6840B26023B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EFEFFC-39AD-48D2-8337-E6840B26023B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EFEFFC-39AD-48D2-8337-E6840B26023B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EFEFFC-39AD-48D2-8337-E6840B26023B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D32A49-994C-44C5-A167-51E71D173B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D32A49-994C-44C5-A167-51E71D173B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D32A49-994C-44C5-A167-51E71D173B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D32A49-994C-44C5-A167-51E71D173B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E9FA1F-4079-4F62-B717-E389BC0014E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E9FA1F-4079-4F62-B717-E389BC0014E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E9FA1F-4079-4F62-B717-E389BC0014E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E9FA1F-4079-4F62-B717-E389BC0014E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558F1B39-07E4-4FAB-BE7E-5B6104607064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558F1B39-07E4-4FAB-BE7E-5B6104607064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558F1B39-07E4-4FAB-BE7E-5B6104607064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558F1B39-07E4-4FAB-BE7E-5B6104607064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300A8113-8033-4184-BE28-FC48D8349CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300A8113-8033-4184-BE28-FC48D8349CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300A8113-8033-4184-BE28-FC48D8349CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300A8113-8033-4184-BE28-FC48D8349CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D318A2-F44E-4CB7-8DD4-483357D4333F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D318A2-F44E-4CB7-8DD4-483357D4333F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D318A2-F44E-4CB7-8DD4-483357D4333F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D318A2-F44E-4CB7-8DD4-483357D4333F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C9E9DC-E926-4C90-9025-3DAC55D7EDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C9E9DC-E926-4C90-9025-3DAC55D7EDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C9E9DC-E926-4C90-9025-3DAC55D7EDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C9E9DC-E926-4C90-9025-3DAC55D7EDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3265A9-6716-4D28-8648-C64D5E692ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3265A9-6716-4D28-8648-C64D5E692ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3265A9-6716-4D28-8648-C64D5E692ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3265A9-6716-4D28-8648-C64D5E692ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{300A8113-8033-4184-BE28-FC48D8349CD0} = {EDA8901E-541E-4ADC-B71E-59697D5F9549}
+		{52D318A2-F44E-4CB7-8DD4-483357D4333F} = {047A9723-9AAC-42E3-8C69-B3835F15FF96}
+		{17C9E9DC-E926-4C90-9025-3DAC55D7EDA3} = {A592C96A-4E44-4F2A-AC21-30683AF6C493}
+		{0B3265A9-6716-4D28-8648-C64D5E692ACA} = {047A9723-9AAC-42E3-8C69-B3835F15FF96}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB40D0C5-E3EA-4A9B-86C2-38F0BB33FC04}
+	EndGlobalSection
+EndGlobal

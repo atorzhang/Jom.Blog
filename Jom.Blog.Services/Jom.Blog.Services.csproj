@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\Jom.Blog.Api\bin\Debug\</OutputPath>
+	</PropertyGroup>
+	
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>..\Jom.Blog\bin\Release\</OutputPath>
+	</PropertyGroup>
+	 
+
+	<ItemGroup>
+		<ProjectReference Include="..\Jom.Blog.IServices\Jom.Blog.IServices.csproj" />
+		<ProjectReference Include="..\Jom.Blog.Repository\Jom.Blog.Repository.csproj" />
+	</ItemGroup>
+
+</Project>
