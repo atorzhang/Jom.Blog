@@ -17,7 +17,6 @@ namespace Jom.Blog
              {
                  webBuilder
                  .UseStartup<Startup>()
-                 .UseUrls("http://*:8081")
                  .ConfigureLogging((hostingContext, builder) =>
                  {
                      // 1.过滤掉系统默认的一些日志

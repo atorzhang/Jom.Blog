@@ -22,6 +22,7 @@
 	</PropertyGroup>
         <PropertyGroup> 
           <ServerGarbageCollection>false</ServerGarbageCollection> 
+          <UserSecretsId>121217a1-ee7f-469c-9e09-6be5a2a7a9c0</UserSecretsId> 
         </PropertyGroup>
 	<ItemGroup>
 		<Compile Remove="Extensions\**" />
